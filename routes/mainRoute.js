@@ -1,5 +1,4 @@
 const express = require("express");
-//const routesVersioning = require("express-routes-versioning")();
 
 const router = express.Router();
 
