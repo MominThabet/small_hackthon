@@ -8,7 +8,7 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use("/api", require("./routes/mainRoute"));
+app.use("/api/v1", require("./routes/mainRoute"));
 
 app.use("*", (req, res) => res.status(404).send("NOT FOUND PAGE Ahmad Raid"));
 
